@@ -1,8 +1,13 @@
+/**
+ * Function for generating Navigation Block
+ */
 const create_nav = () => {
     let nav = document.querySelector('.navbar');
     nav.innerHTML = `
     <div class="nav">
+        <a href = "index.html">
         <img src="img/dark-logo.png" class="brand-logo" alt="">
+        </a>
         <div class="nav-items">
             <div class="search">
                 <input type="text" class="search-box" placeholder="search brands, products">
